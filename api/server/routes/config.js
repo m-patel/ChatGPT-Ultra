@@ -9,7 +9,7 @@ const emailLoginEnabled =
 router.get('/', async function (req, res) {
   try {
     const payload = {
-      appTitle: process.env.APP_TITLE || 'LibreChat',
+      appTitle: process.env.APP_TITLE || 'UltraChat',
       googleLoginEnabled: !!process.env.GOOGLE_CLIENT_ID && !!process.env.GOOGLE_CLIENT_SECRET,
       facebookLoginEnabled:
         !!process.env.FACEBOOK_CLIENT_ID && !!process.env.FACEBOOK_CLIENT_SECRET,

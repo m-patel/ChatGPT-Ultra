@@ -245,7 +245,7 @@ export default {
   com_endpoint_config_key_google_service_account: 'サービスアカウントを作成する',
   com_endpoint_config_key_google_vertex_api_role:
     '必ず「作成して続行」をクリックして、少なくとも「Vertex AI ユーザー」権限を与えてください。最後にここにインポートするJSONキーを作成してください。',
-  com_nav_welcome_message: 'How can I help you today?',
+  com_nav_welcome_message: 'Pray tell, what enigma shall I unravel for you today?',
   com_nav_auto_scroll: 'チャットを開いたときに最新まで自動でスクロール',
   com_nav_plugin_store: 'プラグインストア',
   com_nav_plugin_search: 'プラグイン検索',
