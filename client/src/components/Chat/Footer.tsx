@@ -11,14 +11,9 @@ export default function Footer() {
           config.customFooter
         ) : (
           <>
-            <a
-              href="https://github.com/danny-avila/LibreChat"
-              target="_blank"
-              rel="noreferrer"
-              className="underline"
-            >
-              {config?.appTitle || 'LibreChat'} v0.1.5
-            </a>
+            <span>
+              {config?.appTitle || 'LibreChat'} v1.0
+            </span>
             {' - '} {localize('com_ui_new_footer')}
           </>
         )}
